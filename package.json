@@ -1,0 +1,10 @@
+{
+  "name": "data-reliability-mesh-rl",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:web": "npm --prefix apps/dashboard run build",
+    "lint:web": "npm --prefix apps/dashboard run lint",
+    "audit": "python -m pytest tests -q && python -m compileall services src simulator tests && npm --prefix apps/dashboard run build"
+  }
+}

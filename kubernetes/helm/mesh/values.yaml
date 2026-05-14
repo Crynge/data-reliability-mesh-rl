@@ -1,0 +1,8 @@
+image:
+  repository: ghcr.io/crynge/data-reliability-mesh-rl
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 8014
+

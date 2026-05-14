@@ -1,0 +1,9 @@
+[package]
+name = "mesh-rust-stream"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mesh_rust_stream"
+path = "src/lib.rs"
+

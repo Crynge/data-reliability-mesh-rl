@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-reliability-mesh-rl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: data-reliability-mesh-rl
+  template:
+    metadata:
+      labels:
+        app: data-reliability-mesh-rl
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/crynge/data-reliability-mesh-rl:latest
+          ports:
+            - containerPort: 8014
+
