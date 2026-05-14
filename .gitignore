@@ -7,4 +7,4 @@ apps/dashboard/dist/
 apps/dashboard/node_modules/
 docs/screenshots/*.png
 !docs/screenshots/.gitkeep
-
+!docs/screenshots/mesh-dashboard.png
